@@ -1,0 +1,358 @@
+Function: CreateProcessA ArgsNum : 2 ArgsType:  string string
+Function: CreateProcessW ArgsNum : 2 ArgsType:  wstring wstring
+Function: CreateProcessAsUserA ArgsNum : 3 ArgsType:  int string string
+Function: CreateProcessAsUserW ArgsNum : 3 ArgsType:  int wstring wstring
+Function: CreateProcessWithLogonA ArgsNum : 3 ArgsType:  string string string
+Function: CreateProcessWithLogonW ArgsNum : 3 ArgsType:  wstring wstring wstring
+Function: CreateProcessWithTokenW ArgsNum : 3 ArgsType:  int int wstring
+Function: LoadLibraryA ArgsNum : 1 ArgsType:  string
+Function: LoadLibraryW ArgsNum : 1 ArgsType:  wstring
+Function: LoadLibraryExA ArgsNum : 1 ArgsType:  string
+Function: LoadLibraryExW ArgsNum : 1 ArgsType:  wstring
+Function: LoadModule ArgsNum : 2 ArgsType:  string string
+Function: LoadPackagedLibrary ArgsNum : 1 ArgsType:  string
+Function: WinExec ArgsNum : 1 ArgsType:  string
+Function: ShellExecutedA ArgsNum : 3 ArgsType:  int string string
+Function: ShellExecutedW ArgsNum : 3 ArgsType:  int wstring wstring
+Function: ShellExecutedExA ArgsNum : 3 ArgsType:  int string string
+Function: ShellExecutedExW ArgsNum : 3 ArgsType:  int wstring wstring
+Function: WriteProcessMemory ArgsNum : 1 ArgsType:  int
+Function: ZwUnmapViewOfSection ArgsNum : 1 ArgsType:  int
+Function: NtUnmapViewOfSection ArgsNum : 1 ArgsType:  int
+Function: SetWindowsHookExA ArgsNum : 1 ArgsType:  int
+Function: SetWindowsHookExW ArgsNum : 1 ArgsType:  int
+Function: GetKeyState ArgsNum : 1 ArgsType:  int
+Function: GetAsyncKeyState ArgsNum : 1 ArgsType:  int
+Function: RegOpenKeyExA ArgsNum : 2 ArgsType:  int string
+Function: RegOpenKeyExW ArgsNum : 2 ArgsType:  int wstring
+Function: RegOpenKeyA ArgsNum : 2 ArgsType:  int string
+Function: RegCreateKeyExA ArgsNum : 2 ArgsType:  int string
+Function: RegCreateKeyExW ArgsNum : 2 ArgsType:  int wstring
+Function: RegCreateKeyA ArgsNum : 2 ArgsType:  int string
+Function: RegSetValueA ArgsNum : 2 ArgsType:  int string
+Function: RegSetValueW ArgsNum : 2 ArgsType:  int wstring
+Function: RegSetValueExA ArgsNum : 2 ArgsType:  int string
+Function: RegSetValueExW ArgsNum : 2 ArgsType:  int wstring
+Function: RegDeleteKeyA ArgsNum : 2 ArgsType:  int string
+Function: RegDeleteKeyW ArgsNum : 2 ArgsType:  int wstring
+Function: RegDeleteKeyExA ArgsNum : 2 ArgsType:  int string
+Function: RegDeleteKeyExW ArgsNum : 2 ArgsType:  int wstring
+Function: socket ArgsNum : 3 ArgsType:  int int int
+Function: listen ArgsNum : 2 ArgsType:  int int
+Function: accept ArgsNum : 1 ArgsType:  int
+Function: connect ArgsNum : 1 ArgsType:  int
+Function: CreateServiceA ArgsNum : 3 ArgsType:  int string string
+Function: OpenSCManagerA ArgsNum : 0 ArgsType: 
+Function: CreateServiceW ArgsNum : 3 ArgsType:  int wstring wstring
+Function: OpenSCManagerW ArgsNum : 0 ArgsType: 
+Function: OpenService ArgsNum : 3 ArgsType:  int string int
+Function: ControlService ArgsNum : 3 ArgsType:  int int int
+Function: QueryServiceStatus ArgsNum : 2 ArgsType:  int int
+Function: GetProcAddress ArgsNum : 2 ArgsType:  int string
+Function: CreateFileA ArgsNum : 3 ArgsType:  string int int
+Function: CreateFileW ArgsNum : 3 ArgsType:  wstring int int
+Function: WriteFile ArgsNum : 1 ArgsType:  int
+Function: ReadFile ArgsNum : 1 ArgsType:  int
+Function: DeleteFileA ArgsNum : 1 ArgsType:  string
+Function: DeleteFileW ArgsNum : 1 ArgsType:  wstring
+Function: DsEnumerateDomainTrusts ArgsNum : 2 ArgsType:  string int
+Function: ChangeServiceConfigA ArgsNum : 3 ArgsType:  int int int
+Function: ChangeServiceConfigW ArgsNum : 3 ArgsType:  int int int
+Function: GetEnvironmentVariable ArgsNum : 1 ArgsType:  string
+Function: LoadLibraryA Address: 1996568924 Args: gdi32.dll
+Function: LoadLibraryExA Address: 1964936550 Args: gdi32.dll
+Function: LoadLibraryExW Address: 1964948119 Args: gdi32.dll
+Function: GetProcAddress Address: 1996567507 Args: 1989672960 GetCharABCWidthsI
+Function: GetProcAddress Address: 1964928041 Args: 1989672960 GetCharABCWidthsI
+Function: ZwUnmapViewOfSection Address: 1995139512 Args: 4294967295
+Function: NtUnmapViewOfSection Address: 1995139512 Args: 4294967295
+Function: ZwUnmapViewOfSection Address: 1995139512 Args: 4294967295
+Function: NtUnmapViewOfSection Address: 1995139512 Args: 4294967295
+Function: LoadLibraryW Address: 1996569601 Args: C:\Windows\system32\IMM32.DLL
+Function: LoadLibraryExW Address: 1964948119 Args: C:\Windows\system32\IMM32.DLL
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmWINNLSEnableIME
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmWINNLSEnableIME
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmWINNLSGetEnableStatus
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmWINNLSGetEnableStatus
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmSendIMEMessageExW
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmSendIMEMessageExW
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmSendIMEMessageExA
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmSendIMEMessageExA
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmIMPGetIMEW
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmIMPGetIMEW
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmIMPGetIMEA
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmIMPGetIMEA
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmIMPQueryIMEW
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmIMPQueryIMEW
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmIMPQueryIMEA
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmIMPQueryIMEA
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmIMPSetIMEW
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmIMPSetIMEW
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmIMPSetIMEA
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmIMPSetIMEA
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmAssociateContext
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmAssociateContext
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmEscapeA
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmEscapeA
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmEscapeW
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmEscapeW
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmGetCompositionStringA
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmGetCompositionStringA
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmGetCompositionStringW
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmGetCompositionStringW
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmGetCompositionWindow
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmGetCompositionWindow
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmGetContext
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmGetContext
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmGetDefaultIMEWnd
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmGetDefaultIMEWnd
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmIsIME
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmIsIME
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmReleaseContext
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmReleaseContext
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmRegisterClient
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmRegisterClient
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmGetCompositionFontW
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmGetCompositionFontW
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmGetCompositionFontA
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmGetCompositionFontA
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmSetCompositionFontW
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmSetCompositionFontW
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmSetCompositionFontA
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmSetCompositionFontA
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmSetCompositionWindow
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmSetCompositionWindow
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmNotifyIME
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmNotifyIME
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmLockIMC
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmLockIMC
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmUnlockIMC
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmUnlockIMC
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmLoadIME
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmLoadIME
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmSetOpenStatus
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmSetOpenStatus
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmFreeLayout
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmFreeLayout
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmActivateLayout
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmActivateLayout
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmGetCandidateWindow
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmGetCandidateWindow
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmSetCandidateWindow
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmSetCandidateWindow
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmConfigureIMEW
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmConfigureIMEW
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmGetConversionStatus
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmGetConversionStatus
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmSetConversionStatus
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmSetConversionStatus
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmSetStatusWindowPos
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmSetStatusWindowPos
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmGetImeInfoEx
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmGetImeInfoEx
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmLockImeDpi
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmLockImeDpi
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmUnlockImeDpi
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmUnlockImeDpi
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmGetOpenStatus
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmGetOpenStatus
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmSetActiveContext
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmSetActiveContext
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmTranslateMessage
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmTranslateMessage
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmLoadLayout
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmLoadLayout
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmProcessKey
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmProcessKey
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmPutImeMenuItemsIntoMappedFile
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmPutImeMenuItemsIntoMappedFile
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmGetProperty
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmGetProperty
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmSetCompositionStringA
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmSetCompositionStringA
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmSetCompositionStringW
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmSetCompositionStringW
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmEnumInputContext
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmEnumInputContext
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 ImmSystemHandler
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 ImmSystemHandler
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 CtfImmTIMActivate
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 CtfImmTIMActivate
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 CtfImmRestoreToolbarWnd
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 CtfImmRestoreToolbarWnd
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 CtfImmHideToolbarWnd
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 CtfImmHideToolbarWnd
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 CtfImmDispatchDefImeMessage
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 CtfImmDispatchDefImeMessage
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 CtfImmNotify
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 CtfImmNotify
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 CtfImmSetDefaultRemoteKeyboardLayout
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 CtfImmSetDefaultRemoteKeyboardLayout
+Function: GetProcAddress Address: 1996567507 Args: 1992425472 CtfImmGetCompatibleKeyboardLayout
+Function: GetProcAddress Address: 1964928041 Args: 1992425472 CtfImmGetCompatibleKeyboardLayout
+Function: GetProcAddress Address: 1996567507 Args: 1996161024 LpkTabbedTextOut
+Function: GetProcAddress Address: 1964928041 Args: 1996161024 LpkTabbedTextOut
+Function: GetProcAddress Address: 1996567507 Args: 1996161024 LpkPSMTextOut
+Function: GetProcAddress Address: 1964928041 Args: 1996161024 LpkPSMTextOut
+Function: GetProcAddress Address: 1996567507 Args: 1996161024 LpkDrawTextEx
+Function: GetProcAddress Address: 1964928041 Args: 1996161024 LpkDrawTextEx
+Function: GetProcAddress Address: 1996567507 Args: 1996161024 LpkEditControl
+Function: GetProcAddress Address: 1964928041 Args: 1996161024 LpkEditControl
+Function: RegOpenKeyExW Address: 1996538249 Args: 2147483650 Software\Microsoft\Windows NT\CurrentVersion\Windows
+Function: RegOpenKeyExW Address: 1996538249 Args: 2147483650 Software\Microsoft\Windows NT\CurrentVersion\Diagnostics
+Function: LoadLibraryExW Address: 1996506997 Args: C:\Windows\system32\uxtheme.dll
+Function: LoadLibraryExW Address: 1964948119 Args: C:\Windows\system32\uxtheme.dll
+Function: GetProcAddress Address: 1996567507 Args: 1941045248 ThemeInitApiHook
+Function: GetProcAddress Address: 1964928041 Args: 1941045248 ThemeInitApiHook
+Function: LoadLibraryExW Address: 1996506997 Args: C:\Windows\system32\uxtheme.dll
+Function: LoadLibraryExW Address: 1964948119 Args: C:\Windows\system32\uxtheme.dll
+Function: GetProcAddress Address: 1996567507 Args: 1941045248 ThemeInitApiHook
+Function: GetProcAddress Address: 1964928041 Args: 1941045248 ThemeInitApiHook
+Function: GetProcAddress Address: 1996567507 Args: 1987706880 IsProcessDPIAware
+Function: GetProcAddress Address: 1964928041 Args: 1987706880 IsProcessDPIAware
+Function: LoadLibraryExW Address: 1996506997 Args: C:\Windows\system32\uxtheme.dll
+Function: LoadLibraryExW Address: 1964948119 Args: C:\Windows\system32\uxtheme.dll
+Function: GetProcAddress Address: 1996567507 Args: 1941045248 ThemeInitApiHook
+Function: GetProcAddress Address: 1964928041 Args: 1941045248 ThemeInitApiHook
+Function: LoadLibraryExW Address: 1996506997 Args: C:\Windows\system32\uxtheme.dll
+Function: LoadLibraryExW Address: 1964948119 Args: C:\Windows\system32\uxtheme.dll
+Function: GetProcAddress Address: 1996567507 Args: 1941045248 ThemeInitApiHook
+Function: GetProcAddress Address: 1964928041 Args: 1941045248 ThemeInitApiHook
+Function: LoadLibraryExA Address: 1996507130 Args: dwmapi.dll
+Function: LoadLibraryExA Address: 1964936550 Args: dwmapi.dll
+Function: LoadLibraryExW Address: 1964948119 Args: dwmapi.dll
+Function: GetProcAddress Address: 1996567507 Args: 1937702912 DwmIsCompositionEnabled
+Function: GetProcAddress Address: 1964928041 Args: 1937702912 DwmIsCompositionEnabled
+Function: OpenSCManagerA Address: 1968778200
+Function: OpenSCManagerA Address: 1986487536
+Function: LoadLibraryExW Address: 1964948119 Args: rpcrt4.dll
+Function: RegOpenKeyExA Address: 1996567566 Args: 2147483650 Software\Microsoft\Rpc
+Function: RegOpenKeyExW Address: 1996538249 Args: 2147483650 Software\Policies\Microsoft\Windows NT\Rpc
+Function: RegOpenKeyExW Address: 1996538249 Args: 2147483650 System\CurrentControlSet\Control\SQMServiceList
+Function: DeleteFileA Address: 1996507083 Args: C:\Windows\system32\scardprv.dll
+Function: DeleteFileA Address: 1964951713 Args: C:\Windows\system32\scardprv.dll
+Function: DeleteFileW Address: 1964968373 Args: C:\Windows\system32\scardprv.dll
+Function: CreateFileA Address: 1996541672 Args: C:\Windows\system32\scardprv.dll 1073741824 0
+Function: CreateFileW Address: 1996541014 Args: C:\Windows\system32\scardprv.dll 1073741824 0
+Function: CreateFileW Address: 1964943440 Args: C:\Windows\system32\scardprv.dll 1073741824 0
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: DeleteFileA Address: 1996507083 Args: C:\Windows\system32\Wmmvsvc.dll
+Function: DeleteFileA Address: 1964951713 Args: C:\Windows\system32\Wmmvsvc.dll
+Function: DeleteFileW Address: 1964968373 Args: C:\Windows\system32\Wmmvsvc.dll
+Function: CreateFileA Address: 1996541672 Args: C:\Windows\system32\Wmmvsvc.dll 1073741824 0
+Function: CreateFileW Address: 1996541014 Args: C:\Windows\system32\Wmmvsvc.dll 1073741824 0
+Function: CreateFileW Address: 1964943440 Args: C:\Windows\system32\Wmmvsvc.dll 1073741824 0
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: CreateFileA Address: 1996541672 Args: C:\Windows\system32\mssscardprv.ax 2147483648 3
+Function: CreateFileW Address: 1996541014 Args: C:\Windows\system32\mssscardprv.ax 2147483648 3
+Function: CreateFileW Address: 1964943440 Args: C:\Windows\system32\mssscardprv.ax 2147483648 3
+Function: DeleteFileA Address: 1996507083 Args: C:\Windows\system32\mssscardprv.ax
+Function: DeleteFileA Address: 1964951713 Args: C:\Windows\system32\mssscardprv.ax
+Function: DeleteFileW Address: 1964968373 Args: C:\Windows\system32\mssscardprv.ax
+Function: CreateFileA Address: 1996541672 Args: C:\Windows\system32\mssscardprv.ax 1073741824 0
+Function: CreateFileW Address: 1996541014 Args: C:\Windows\system32\mssscardprv.ax 1073741824 0
+Function: CreateFileW Address: 1964943440 Args: C:\Windows\system32\mssscardprv.ax 1073741824 0
+Function: WriteFile Address: 1996559360 Args: 236
+Function: WriteFile Address: 1964930341 Args: 236
+Function: RegOpenKeyExA Address: 1968785671 Args: 2147483650 SOFTWARE\Microsoft\Windows NT\CurrentVersion\Svchost
+Function: RegOpenKeyExA Address: 1996567566 Args: 2147483650 SOFTWARE\Microsoft\Windows NT\CurrentVersion\Svchost
+Function: RegSetValueExA Address: 1968772275 Args: 236 SCardPrv
+Function: RegSetValueExA Address: 1996502771 Args: 236 SCardPrv
+Function: OpenSCManagerA Address: 1968778200
+Function: OpenSCManagerA Address: 1986487536
+Function: CreateServiceA Address: 1968976216 Args: 2567592 SCardPrv SmartCard Protector
+Function: CreateServiceA Address: 1986483836 Args: 2567592 SCardPrv SmartCard Protector
+Function: RegOpenKeyExA Address: 1968785671 Args: 2147483650 SYSTEM\CurrentControlSet\Services\SCardPrv
+Function: RegOpenKeyExA Address: 1996567566 Args: 2147483650 SYSTEM\CurrentControlSet\Services\SCardPrv
+Function: RegCreateKeyA Address: 1968753921 Args: 236 Parameters
+Function: RegCreateKeyExA Address: 1996500348 Args: 236 Parameters
+Function: RegSetValueExA Address: 1968772275 Args: 240 ServiceDll
+Function: RegSetValueExA Address: 1996502771 Args: 240 ServiceDll
+Function: OpenSCManagerA Address: 1968778200
+Function: OpenSCManagerA Address: 1986487536
+Function: RegOpenKeyExA Address: 1968785671 Args: 2147483650 SOFTWARE\Microsoft\Windows NT\CurrentVersion\Svchost
+Function: RegOpenKeyExA Address: 1996567566 Args: 2147483650 SOFTWARE\Microsoft\Windows NT\CurrentVersion\Svchost
+Function: RegSetValueExA Address: 1968772275 Args: 236 Wmmvsvc
+Function: RegSetValueExA Address: 1996502771 Args: 236 Wmmvsvc
+Function: OpenSCManagerA Address: 1968778200
+Function: OpenSCManagerA Address: 1986487536
+Function: CreateServiceA Address: 1968976216 Args: 2567592 Wmmvsvc Windows Media Management Driver Extensions
+Function: CreateServiceA Address: 1986483836 Args: 2567592 Wmmvsvc Windows Media Management Driver Extensions
+Function: RegOpenKeyExA Address: 1968785671 Args: 2147483650 SYSTEM\CurrentControlSet\Services\Wmmvsvc
+Function: RegOpenKeyExA Address: 1996567566 Args: 2147483650 SYSTEM\CurrentControlSet\Services\Wmmvsvc
+Function: RegCreateKeyA Address: 1968753921 Args: 236 Parameters
+Function: RegCreateKeyExA Address: 1996500348 Args: 236 Parameters
+Function: RegSetValueExA Address: 1968772275 Args: 240 ServiceDll
+Function: RegSetValueExA Address: 1996502771 Args: 240 ServiceDll
+Function: OpenSCManagerA Address: 1968778200
+Function: OpenSCManagerA Address: 1986487536
+Function: LoadLibraryExW Address: 1964948119 Args: kernel32.dll
+Function: GetProcAddress Address: 1964928041 Args: 1996226560 SortGetHandle
+Function: GetProcAddress Address: 1964928041 Args: 1996226560 SortCloseHandle
+Function: CreateFileW Address: 1964943440 Args: C:\Windows\Globalization\Sorting\sortdefault.nls 2147483648 1
